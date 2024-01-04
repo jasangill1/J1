@@ -1,14 +1,34 @@
 
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          J1 J1 
-          <code className="font-mono font-bold">src/app/page.tsx</code>
+    <div className="container mx-auto px-4">
+      <main className="min-h-screen flex flex-col items-center justify-center py-20">
+        <h1 className="text-6xl font-bold">
+          Welcome to <span className="text-blue-600">Kiddah Ladies</span>
+        </h1>
+        <p className="mt-3 text-2xl">
+          This is i intent to create something that will help people adn save teh world 
         </p>
-      
-      </div>
-    </main>
+        <div className="mt-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="shadow-lg rounded-lg overflow-hidden">
+              <div className="p-4">
+                <h2 className="text-2xl font-bold">Jay</h2>
+                <p className="mt-2">Project J</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer className="flex items-center justify-center w-full h-24 border-t">
+        <a
+          href="https://yourwebsite.com"
+          className="flex items-center justify-center"
+        >
+          Powered by Your Name
+        </a>
+      </footer>
+    </div>
   )
 }
