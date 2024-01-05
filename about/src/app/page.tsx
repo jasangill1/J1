@@ -1,5 +1,3 @@
-
-
 export default function Home() {
   return (
     <div className="container mx-auto px-4">
@@ -8,7 +6,8 @@ export default function Home() {
           Welcome to <span className="text-blue-600">Kiddah Ladies</span>
         </h1>
         <p className="mt-3 text-2xl">
-          This is i intent to create something that will help people adn save teh world 
+          This is i intent to create something that will help people adn save
+          teh world
         </p>
         <div className="mt-6">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -22,13 +21,8 @@ export default function Home() {
         </div>
       </main>
       <footer className="flex items-center justify-center w-full h-24 border-t">
-        <a
-          href="https://yourwebsite.com"
-          className="flex items-center justify-center"
-        >
-          Powered by Your Name
-        </a>
+        Powered by Yours Truly
       </footer>
     </div>
-  )
+  );
 }
