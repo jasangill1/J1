@@ -21,7 +21,30 @@ export default function Home() {
         </div>
       </main>
       <footer className="flex items-center justify-center w-full h-24 border-t">
-        Powered by Yours Truly jay babi 12 n 3
+        <div>
+          <a
+            href="https://www.linkedin.com/in/your-linkedin/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="linkedin-icon.png" alt="LinkedIn" />
+          </a>
+          <a
+            href="https://twitter.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="twitter-icon.png" alt="Twitter" />
+          </a>
+          <a
+            href="https://github.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="github-icon.png" alt="GitHub" />
+          </a>
+        </div>
+        <p>Powered by Yours Truly Jay Babi 12 n 3</p>
       </footer>
     </div>
   );
