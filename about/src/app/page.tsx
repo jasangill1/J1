@@ -44,7 +44,7 @@ export default function Home() {
             <img src="github-icon.png" alt="GitHub" />
           </a>
         </div>
-        <p>Powered by Yours Truly Jay Babi 12 n 3</p>
+        <p>Powered by Yours Truly Jay Babi 12 n all is well n 3</p>
       </footer>
     </div>
   );
