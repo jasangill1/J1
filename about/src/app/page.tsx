@@ -7,7 +7,7 @@ export default function Home() {
         </h1>
         <p className="mt-3 text-2xl">
           This is i intent to create something that will help people adn save
-          teh world
+          teh world to imporve adn make better to the youth
         </p>
         <div className="mt-6">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
