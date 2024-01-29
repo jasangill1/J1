@@ -46,7 +46,7 @@ export default function Home() {
         </div>
         <p>
           Powered by Yours Truly Jay Babi 12 n all is well n along with the lies
-          comes from there thighs 3 4
+          comes from there thighs 3 4 so currently its interestin lets work
         </p>
       </footer>
     </div>
